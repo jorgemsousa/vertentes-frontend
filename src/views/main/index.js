@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Card from '../../components/card';
 import CardClima from '../../components/cardclima';
+import TabeClima from '../../components/tableClima';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
@@ -46,6 +47,7 @@ export default class main extends Component {
         Clima
         <div className="row-clima">
           <CardClima />
+          <TabeClima />
         </div>
         
       </div>
