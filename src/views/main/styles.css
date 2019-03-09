@@ -1,0 +1,82 @@
+.container {
+    background: white;
+    margin: 20px;
+}
+
+.row-noticia {
+  display: flex;
+  flex-direction: row;
+  border-left: solid 4px darkgreen;
+}
+
+.row-clima {
+  display: flex;
+  flex-direction: row;
+  border-left: solid 4px darkorange;
+}
+
+.paralax-top {
+  background-image: url(../../assets//images/campo3.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.paralax-botton {
+  background-image: url(../../assets//images/campo1.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 280px;
+  padding-bottom: 280px;
+}
+
+h1.text-center {
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
+}
+
+p.paralax {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.btn {
+  background-color: rgb(212, 12, 12); /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 45%;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(241, 50, 50); /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 45%;
+  margin-top: 20px;
+}

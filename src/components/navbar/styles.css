@@ -1,0 +1,19 @@
+header#main-header {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgreen;
+    display: flex;
+    justify-content: inherit;
+    position: fixed;
+    opacity: 0.9;
+}
+
+img {
+    width: 350px;
+    height: 50px;
+    padding: 5px 60px;
+}
+

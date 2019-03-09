@@ -1,0 +1,15 @@
+.conteudo {
+    padding: 20px !important;
+}
+
+.conteudo h1 {
+    color: darkgrey;
+}
+
+.conteudo img{
+    border: solid 4px #f1f1f1;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    padding: 4px;
+}

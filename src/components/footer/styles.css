@@ -1,0 +1,22 @@
+.footer-body {
+    height: 280px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: darkgreen;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+  }
+
+  .footerbotton {
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: darkgreen;
+    text-align: center;
+    padding: 20px 0;
+  }

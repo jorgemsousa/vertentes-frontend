@@ -1,0 +1,17 @@
+.container-associados {
+    background: white;
+    margin: 20px 30px;
+    display:flex;
+  
+}
+
+.paralax-associados{
+    background-image: url(../../assets//images/socios.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 160px;
+    padding-bottom: 90px;
+  }

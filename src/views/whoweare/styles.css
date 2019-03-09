@@ -1,0 +1,24 @@
+.container-whoweare {
+    background: white;
+    margin: 20px 30px;
+    padding: 40px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+  
+}
+.container-whoweare h1{
+  padding-bottom: 20px;
+  color: darkgrey;
+}
+
+.paralax-whoweare{
+  background-image: url(../../assets//images/quemsomos.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 160px;
+  padding-bottom: 90px;
+}

@@ -1,0 +1,95 @@
+.card-clima {
+    display: flex;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 480px;
+    height: 360px;
+    border-radius: 5px;
+  }
+
+  .card-clima:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    background: #fff;
+    padding: 2px 6px;
+  }
+
+  .card-header h1{
+    font-size: 1.8em;
+    color: darkorange;
+  }
+
+  .card-body {
+    display: flex;
+  }
+
+  .condition {
+    color: darkgrey;
+    font-size: 1.2em;
+    margin:10px 60px 10px 10px;
+  }
+
+  .date {
+    display: flex;
+    color: darkgrey;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: right;
+  }
+
+  .image{
+    display: flex;
+    width: 70px;
+    height: 70px;
+  }
+
+  .image span{
+    font-size: 1.2em;
+    color: darkgrey;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .temp{
+     display: flex;
+  }
+
+  .temperature {
+    display: flex;
+    font-size: 5em;
+    font-weight: bold;
+    color: darkgrey;
+    margin-left: 30px;
+  }
+
+  .sensation {
+    display: flex;
+    font-size: 3em;
+    font-weight: bold;
+    color: darkgrey;
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+
+  .vento {
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkgrey;
+  }
+
+  .vento span {
+    padding-left: 6px;
+    padding-right: 7px;
+    font-size: 1.2em;
+  }
+
+  .vento a{
+    border: solid 1px darkgrey;
+    border-radius: 5px;
+    padding: 2px;
+    color: darkgrey;
+  }

@@ -1,0 +1,44 @@
+form {
+    border: 4px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 30px;
+  }
+
+  /* Add some padding and a grey background color to containers */
+  .container-footer {
+    padding: 25px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  /* Style the input elements and the submit button */
+  input[type=email], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  /* Style the submit button */
+  .button {
+    padding: 8px 85px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .button:hover {background-color: #3e8e41}
+
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
