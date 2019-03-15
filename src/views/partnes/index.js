@@ -11,7 +11,7 @@ export default class servic extends Component {
     return (
      <div>
         <Navbar />
-       <section className="paralax-services">
+       <section className="paralax-partnes">
        </section>
         <div className="container">
             <a href="http://www.inbatec.ufla.br/"><img src={ImgUfla} alt="Inbatec"/></a>

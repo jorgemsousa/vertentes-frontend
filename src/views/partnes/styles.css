@@ -1,0 +1,18 @@
+
+  .container {
+    background: white;
+    margin: 20px 30px;
+    display:flex;
+  
+}
+
+.paralax-services{
+  background-image: url(../../assets//images/partnes.jpeg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 160px;
+  padding-bottom: 90px;
+}

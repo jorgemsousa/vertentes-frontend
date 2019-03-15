@@ -24,6 +24,35 @@ export default class tableClima extends Component {
                    <td>24º</td>
                    <td>18º</td>
                </tr>
+               <tr className="corpo">
+                   <td>São Paulo</td>
+                   <td>SP</td>
+                   <td>09/03/2019</td>
+                   <td>24º</td>
+                   <td>18º</td>
+               </tr>
+               <tr className="corpo">
+                   <td>São Paulo</td>
+                   <td>SP</td>
+                   <td>09/03/2019</td>
+                   <td>24º</td>
+                   <td>18º</td>
+               </tr>
+               <tr className="corpo">
+                   <td>São Paulo</td>
+                   <td>SP</td>
+                   <td>09/03/2019</td>
+                   <td>24º</td>
+                   <td>18º</td>
+               </tr>
+               <tr className="corpo">
+                   <td>São Paulo</td>
+                   <td>SP</td>
+                   <td>09/03/2019</td>
+                   <td>24º</td>
+                   <td>18º</td>
+               </tr>
+               
            </table>
         </div>
     );

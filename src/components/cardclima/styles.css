@@ -35,7 +35,7 @@
   .date {
     display: flex;
     color: darkgrey;
-    font-size: 1.2em;
+    font-size: 0.9em;
     margin: 10px;
     text-align: right;
   }
@@ -47,7 +47,7 @@
   }
 
   .image span{
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: darkgrey;
     margin-left: 20px;
     text-align: center;
@@ -76,7 +76,7 @@
 
   .vento {
     padding: 20px;
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: bold;
     color: darkgrey;
   }
@@ -88,8 +88,9 @@
   }
 
   .vento a{
+    margin-left: 80px;
     border: solid 1px darkgrey;
     border-radius: 5px;
-    padding: 2px;
+    padding: 8px;
     color: darkgrey;
   }

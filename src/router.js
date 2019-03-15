@@ -7,6 +7,7 @@ import Contact from './views/contact';
 import Associated from './views/associated';
 import Whoweare from './views/whoweare';
 import Services from './views/servic';
+import Partnes from './views/partnes';
 
 const Routes = () => (
   <BrowserRouter>
@@ -16,6 +17,7 @@ const Routes = () => (
        <Route path="/associated" component={Associated} />
        <Route path="/whoweare" component={Whoweare} />
        <Route path="/services" component={Services} />
+       <Route path="/partnes" component={Partnes} />
     </Switch>
   </BrowserRouter>
 );
