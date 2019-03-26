@@ -10,27 +10,20 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  .container {
-    background: #fff;
-    padding: 2px 2px;
+  .corpo {   
+    margin-top: 6px;
+    padding: 4px 4px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .container a {
-    text-decoration: none;
-    color: darkseagreen;
-  }
-
-  .container a:hover {
-    text-decoration: none;
-    color: darkgreen;
-  }
+  
+  
   .card img{
     padding: 0;
     margin: 0;
     width: 280px;
-    height: 260px;
+    height: 250px;
   }
 
   

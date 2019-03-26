@@ -89,32 +89,32 @@ export default class tableClima extends Component {
                    <th>Data</th>
                    <th>Temperatura</th>
                </tr>
-               <tr className="corpo">
+               <tr className="body">
                    <td>{this.state.namesp}</td>
                    <td>{this.state.statesp}</td>
                    <td>{this.state.datasp.date}</td>
                    <td>{this.state.datasp.temperature}º</td>
                    
                </tr>
-               <tr className="corpo">
+               <tr className="body">
                    <td>{this.state.namerj}</td>
                    <td>{this.state.staterj}</td>
                    <td>{this.state.datarj.date}</td>
                    <td>{this.state.datarj.temperature}º</td>
                </tr>
-               <tr className="corpo">
+               <tr className="body">
                    <td>{this.state.namebh}</td>
                    <td>{this.state.statebh}</td>
                    <td>{this.state.databh.date}</td>
                    <td>{this.state.databh.temperature}º</td>
                </tr>
-               <tr className="corpo">
+               <tr className="body">
                    <td>{this.state.nameba}</td>
                    <td>{this.state.stateba}</td>
                    <td>{this.state.databa.date}</td>
                    <td>{this.state.databa.temperature}º</td>
                </tr>
-               <tr className="corpo">
+               <tr className="body">
                    <td>{this.state.nameam}</td>
                    <td>{this.state.stateam}</td>
                    <td>{this.state.dataam.date}</td>

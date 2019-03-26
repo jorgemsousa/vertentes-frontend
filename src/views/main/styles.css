@@ -1,6 +1,8 @@
 .container {
     background: white;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .row-noticia {

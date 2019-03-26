@@ -22,8 +22,9 @@
     color: darkorange;
   }
 
-  .card-body {
+  .card-body span{
     display: flex;
+    flex-direction: row;
   }
 
   .condition {
@@ -42,15 +43,13 @@
 
   .image{
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 100%;
   }
 
   .image span{
     font-size: 1.0em;
     color: darkgrey;
-    margin-left: 20px;
-    text-align: center;
+    margin-left: 10px;
   }
 
   .temp{

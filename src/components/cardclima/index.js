@@ -36,11 +36,10 @@ export default class cardclima extends Component {
                   <h1>{this.state.name} - {this.state.states}</h1>
                </div>
                <div className="card-body">
-                 <span className="condition">{this.state.data.condition}</span><br/>
-                 <span className="date">{this.state.data.date}</span><br/>
+                 <span className="condition">Tempo: {this.state.data.condition}</span>
+                 <span className="date">Data: {this.state.data.date}</span>
                </div>
                <div className="image">
-                <img src={imgTemp} alt="Imagem"/>
                 <span>humidade: {this.state.data.humidity}%</span>
                 <span>Pressão: {this.state.data.pressure}</span>
                </div>
@@ -50,9 +49,8 @@ export default class cardclima extends Component {
                </div>
                <div className="vento">
                 <FontAwesomeIcon icon={faWind} size="4x"/>
-                <span>  {this.state.data.wind_direction}</span>
-                <span>  {this.state.data.wind_velocity}km/h</span>
-                <a href="#clima">ver <FontAwesomeIcon icon={faPlus} size="lg"/></a>
+                <span> Vento: {this.state.data.wind_direction}</span>
+                <span>  {this.state.data.wind_velocity}km/h</span>                
                </div>
             </div>
         </div>

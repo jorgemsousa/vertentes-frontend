@@ -1,18 +1,18 @@
 
-  .container {
+  .row {
     background: white;
-    margin: 20px 30px;
-    display:flex;
-  
+    display: flex;
+    flex-direction: row;
 }
 
+
 .paralax-services{
-  background-image: url(../../assets//images/servicos.png);
+  background-image: url(../../assets//images/servicos.jpg);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   background-attachment: fixed;
   color: white;
   padding-top: 160px;
-  padding-bottom: 90px;
+  padding-bottom: 140px;
 }
