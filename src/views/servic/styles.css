@@ -10,7 +10,7 @@
   background-image: url(../../assets//images/servicos.png);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   color: white;
   padding-top: 160px;

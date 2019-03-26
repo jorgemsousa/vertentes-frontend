@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 
-import ImgUfla from '../../assets/images/inbatec.png'
+
 
 import './styles.css';
 
@@ -12,10 +12,7 @@ export default class servic extends Component {
      <div>
         <Navbar />
        <section className="paralax-services">
-       </section>
-        <div className="container">
-            <a href="http://www.inbatec.ufla.br/"><img src={ImgUfla} alt="Inbatec"/></a>
-        </div>
+       </section>        
         <Footer />
      </div>
     );

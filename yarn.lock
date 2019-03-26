@@ -9114,6 +9114,16 @@ react-accessible-accordion@^2.4.5:
     consecutive "^5.0.4"
     recompose "^0.30.0"
 
+react-alert-template-basic@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-alert-template-basic/-/react-alert-template-basic-1.0.0.tgz#89bcf35095faf5ebdd25e1e7c300e6b4234b5ba1"
+  integrity sha512-6x5Us0oc+jj8BDNkvSWfQMESk5SdyGKitXdLb7CwIlIlecyATjCTKSWpLABg8tpKAPOSJu4Dv/fYUqxXEio/XA==
+
+react-alert@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/react-alert/-/react-alert-5.4.0.tgz#f55e6e1a448a4f7eccc02db55f97f0d1b0874b75"
+  integrity sha512-9AfcwS+NhvYVsp+upUCNJn3WKUzUBfYWF1qb+wKUTSL4dtnLniwdv/Ds2oomGDg1ooA8wdxKfcElwwMYg8IKUQ==
+
 react-app-polyfill@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-0.2.1.tgz#96c701a40b9671c8547f70bdbb4a47f4d5767790"

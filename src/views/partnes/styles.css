@@ -2,17 +2,27 @@
   .container {
     background: white;
     margin: 20px 30px;
-    display:flex;
-  
-}
+    display:flex; 
+  }
 
-.paralax-services{
-  background-image: url(../../assets//images/partnes.jpeg);
+  .partnes {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+  }
+
+  .partnes img {
+    width: 300px;
+    height: 100px;
+  }
+
+.paralax-partnes{
+  background-image: url(../../assets//images/partners.png);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   color: white;
-  padding-top: 160px;
-  padding-bottom: 90px;
+  padding-top: 170px;
+  padding-bottom: 120px;
 }

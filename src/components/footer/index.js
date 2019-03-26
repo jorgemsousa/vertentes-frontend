@@ -6,10 +6,14 @@ import Institucional from '../../components/institucional';
 import './styles.css';
 
 export default class footer extends Component {
+  
   render() {
+    
     return (
+      
      <div>
       <div className="footer-body">
+        
         <Newsletter />
         <Social />
         <Institucional />

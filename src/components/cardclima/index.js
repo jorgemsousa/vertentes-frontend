@@ -24,7 +24,6 @@ export default class cardclima extends Component {
         this.setState({name: response.data.name})
         this.setState({states: response.data.state})
         this.setState({data: response.data.data})
-        console.log(response.data);
       };
 
 
