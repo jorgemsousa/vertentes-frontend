@@ -11,6 +11,11 @@
   border-left: solid 4px darkgreen;
 }
 
+.row-noticia a{
+  text-decoration: none;
+  color: #606060;
+}
+
 .row-clima {
   display: flex;
   flex-direction: row;

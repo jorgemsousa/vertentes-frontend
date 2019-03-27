@@ -9,9 +9,9 @@
     background-image: url(../../assets//images/socios.png);
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     color: white;
     padding-top: 160px;
-    padding-bottom: 90px;
+    padding-bottom: 280px;
   }

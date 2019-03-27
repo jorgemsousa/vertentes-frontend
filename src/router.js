@@ -8,6 +8,7 @@ import Associated from './views/associated';
 import Whoweare from './views/whoweare';
 import Services from './views/servic';
 import Partnes from './views/partnes';
+import Values from './views/values';
 
 const Routes = () => (
   <BrowserRouter>
@@ -18,6 +19,7 @@ const Routes = () => (
        <Route path="/whoweare" component={Whoweare} />
        <Route path="/services" component={Services} />
        <Route path="/partnes" component={Partnes} />
+       <Route path="/values" component={Values} />
     </Switch>
   </BrowserRouter>
 );

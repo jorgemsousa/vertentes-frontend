@@ -5,15 +5,21 @@
     display:flex; 
   }
 
+  .container-partnes h1{
+    padding: 20px ;
+    color: darkgrey;
+    
+  }
+
   .partnes {
     display: flex;
     flex-direction: row;
     border-radius: 10px;
   }
 
-  .partnes img {
-    width: 300px;
-    height: 100px;
+ .partnes a{
+    text-decoration: none;
+    color: darkgray;  
   }
 
 .paralax-partnes{

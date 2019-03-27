@@ -1,5 +1,10 @@
+.container-services h1{
+  padding: 20px ;
+  color: darkgrey;
+  
+}
 
-  .row {
+.row {
     background: white;
     display: flex;
     flex-direction: row;

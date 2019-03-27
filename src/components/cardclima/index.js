@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import apiClima from '../../services/apiClima';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWind, faPlus  } from '@fortawesome/free-solid-svg-icons'
-
-import imgTemp from '../../assets/realistic/70px/3.png';
+import { faWind } from '@fortawesome/free-solid-svg-icons'
 
 import './styles.css';
 

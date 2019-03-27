@@ -20,6 +20,9 @@ export default class servic extends Component {
        <section className="paralax-services">          
        </section> 
       <div className="container"> 
+      
+      <div className="container-services">
+      <h1>Serviços</h1>
       <div className="row"> 
 
              <Card
@@ -50,6 +53,7 @@ export default class servic extends Component {
                 image={ImgMedicinais}
               />             
           
+       </div>
        </div>
        </div>       
         <Footer />

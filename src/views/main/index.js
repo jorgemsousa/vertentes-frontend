@@ -23,26 +23,33 @@ export default class main extends Component {
       <div className="container">
         Notícias
         <div className="row-noticia">
+         <a href="https://istoe.com.br/jbs-biodiesel-vende-260-milhoes-de-litros-em-2018/" target="blank">
           <Card
-             title="JBS Biodiesel vende 260 milhões de litros em 2018"
+             title="JBS Biodiesel vende 260 milhões de litros em 2018 - Fonte: IstoÉ"
              image="https://s2.glbimg.com/J_vjBYM5mqoML-dadn4gpyQu4tY=/780x440/e.glbimg.com/og/ed/f/original/2019/01/28/gas-station-fuel-diesel-fuel-gas-pump-energy-pump-1596622.jpg"
              link="#noticia"
-          />
+          />  
+          </a>
+          <a href="https://istoe.com.br/importacao-de-soja-da-china-recua-em-janeiro-de-milho-e-trigo-aumenta/" target="blank">
           <Card
-            title="Importação de soja da China recua em janeiro;"
+            title="Importação de soja da China recua em janeiro; de milho e trigo aumentam - Fonte: IstoÉ"
             image="https://s2.glbimg.com/h3PRQtTUbrsZc7FbB9k-Cz-HuqU=/780x440/e.glbimg.com/og/ed/f/original/2019/02/22/20190219181752_img_0728.jpg"
             link="#noticia"
           />
+          </a>
+          <a href="https://revistagloborural.globo.com/Estadao/noticia/2019/01/cosan-convoca-age-para-deliberar-sobre-incorporacao-de-fatia-da-santa-luzia.html" target="blank">
           <Card
-            title="Cosan convoca AGE para deliberar incorporação..."
+            title="Cosan convoca AGE para deliberar sobre incorporação de fatia da Santa Luzia - Fonte: G1"
             image="https://s2.glbimg.com/5s4X9hP5I8oQZ1UQSUQ5Q4lZn9o=/780x440/e.glbimg.com/og/ed/f/original/2016/09/27/smto_colhedora_2.jpg"
-            link="#noticia"
           />
+          </a>
+          <a href="https://exame.abril.com.br/economia/mudanca-climatica-ameaca-produtividade-e-preco-do-cafe/" target="blank">
           <Card
-            title="Empresa abre vagas de estágio..."
-            image="https://s2.glbimg.com/LsztvpBc5ekHXgZMxqusat7pYEU=/e.glbimg.com/og/ed/f/original/2019/01/22/sem-titulo-2.jpg"
+            title="Mudança climática ameaça produtividade e preço do café - Fonte: EXAME"
+            image="https://abrilexame.files.wordpress.com/2018/11/2018-11-08t195635z_1_lynxnpeea71wz_rtroptp_4_commods-cafe-cecafe.jpg?quality=70&strip=info&resize=680,453https://abrilexame.files.wordpress.com/2018/11/2018-11-08t195635z_1_lynxnpeea71wz_rtroptp_4_commods-cafe-cecafe.jpg?quality=70&strip=info&resize=680,453"
             link="#noticia"
           />
+          </a>
         </div><br/>
         Clima
         <div className="row-clima">
@@ -53,8 +60,8 @@ export default class main extends Component {
       </div>
       <section className="paralax-botton">
        <h1 className="text-center">Nossos Valores</h1>
-       <p className="paralax">Transparência, qualidade, sigilo, esses são alguns dos nossos valores.</p>
-       <Link className="btn btn-danger" to="#servicos">Saiba Mais</Link>
+       <p className="paralax">Segurança, Ética, Sustentabilidade, esses são alguns dos nossos valores.</p>
+       <Link className="btn btn-danger" to="/values">Saiba Mais</Link>
      </section>
      <Footer />
     </div>

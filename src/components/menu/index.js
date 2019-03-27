@@ -13,7 +13,7 @@ export default class menu extends Component {
         <Link to="/" className="active">Home</Link>        
         <Link to="/partnes">Parceiros</Link>               
         <Link to="/services">Serviços</Link>
-        <Link to="#valores">Valores</Link>         
+        <Link to="/values">Valores</Link>         
     </div>
     );
   }

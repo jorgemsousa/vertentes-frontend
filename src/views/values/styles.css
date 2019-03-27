@@ -1,4 +1,4 @@
-.container-whoweare {
+.container-values {
     background: white;
     margin: 20px 30px;
     padding: 40px;
@@ -7,18 +7,19 @@
     border-radius: 5px;
   
 }
-.container-whoweare h1{
-  padding-bottom: 20px;
+.container-values h1{
+  padding: 20px ;
   color: darkgrey;
+  
 }
 
-.paralax-whoweare{
-  background-image: url(../../assets//images/quemsomos.jpg);
+.paralax-values{
+  background-image: url(../../assets//images/valores.png);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: white;
   padding-top: 160px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
