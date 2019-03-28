@@ -8,3 +8,4 @@ services:
           - "3001:3001"
         volumes:
           - .:/usr/frontend
+        
