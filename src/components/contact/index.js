@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import Iframe from 'react-iframe';
 import Api from '../../services/api';
 
+
 import './styles.css';
 
 export default class contact extends Component {
+
   
   state = {
      newName: '',
@@ -18,6 +20,8 @@ export default class contact extends Component {
 
     const { newName, newEmail, newSubject } = this.state;
 
+    
+
     if (!(newName || newEmail || newSubject)) return;
 
     const name = this.state.newName;
@@ -25,6 +29,10 @@ export default class contact extends Component {
     const subject = this.state.newSubject;
 
     await Api.post('contacts', { name, email, subject })
+     
+   
+
+    this.setState({ newEmail: '', newName: '', newSubject: '' })
     
   }
 

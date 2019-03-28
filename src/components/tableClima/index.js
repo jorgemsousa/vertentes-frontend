@@ -80,15 +80,19 @@ export default class tableClima extends Component {
     return (
         <div className="tableClima">
            <table>
+             <thead>
                <tr className="titulo">
                  <th colSpan="5">Previsão das Principais Cidades</th>
-               </tr>
+               </tr>           
+              
                <tr className="cabecalho">
                    <th>Cidade</th>
                    <th>Estado</th>
                    <th>Data</th>
                    <th>Temperatura</th>
                </tr>
+            </thead>  
+            <tbody>   
                <tr className="body">
                    <td>{this.state.namesp}</td>
                    <td>{this.state.statesp}</td>
@@ -120,7 +124,7 @@ export default class tableClima extends Component {
                    <td>{this.state.dataam.date}</td>
                    <td>{this.state.dataam.temperature}º</td>
                </tr>
-               
+            </tbody>   
            </table>
         </div>
     );  
