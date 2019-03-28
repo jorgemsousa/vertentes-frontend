@@ -1,22 +1,82 @@
 import React, { Component } from 'react';
 import Iframe from 'react-iframe';
+import Api from '../../services/api';
 
 import './styles.css';
 
 export default class contact extends Component {
+  
+  state = {
+     newName: '',
+     newEmail: '',
+     newSubject: '',
+  }
+
+  handleNewContact = async (e) => {
+
+    e.preventDefault()
+
+    const { newName, newEmail, newSubject } = this.state;
+
+    if (!(newName || newEmail || newSubject)) return;
+
+    const name = this.state.newName;
+    const email = this.state.newEmail;
+    const subject = this.state.newSubject;
+
+    await Api.post('contacts', { name, email, subject })
+    
+  }
+
+  handleInputName = (e) => {
+    this.setState({ newName: e.target.value })
+  }
+   
+  handleInputEmail = (e) => {
+    this.setState({ newEmail: e.target.value })
+  }
+
+  handleInputSubject = (e) => {
+    this.setState({ newSubject: e.target.value })
+  }
+
   render() {
     return (
         <div className="container-contact">
 
-            <form action="#" className="form-contact" method="post" tabindex="1">
+            <form className="form-contact" onSubmit={this.handleNewContact}>
             <h1>Contato</h1>
             <p>Mande uma mensagem com suas dúvidas e logo daremos a solução!</p>
                 <label>Nome:</label>
-                <input type="text" className="form-contact-input" name="nome" placeholder="Nome" required />
+                <input 
+                    type="text" 
+                    className="form-contact-input" 
+                    name="nome" 
+                    placeholder="Nome"  
+                    value={this.state.newName}  
+                    onChange={this.handleInputName}                 
+                    required 
+                />
                 <label>E-mail:</label>
-                <input type="email" className="form-contact-input" name="email" placeholder="Email" required />
+                <input 
+                    type="email" 
+                    className="form-contact-input" 
+                    name="email" 
+                    placeholder="Email" 
+                    value={this.state.newEmail}  
+                    onChange={this.handleInputEmail}  
+                    required
+                />
                 <label>Mensagem:</label>
-                <textarea className="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+                <textarea 
+                    className="form-contact-textarea" 
+                    name="conteudo" 
+                    placeholder="Deixe uma mensagem" 
+                    value={this.state.newSubject}  
+                    onChange={this.handleInputSubject}
+                    required  
+                >
+                </textarea>
                 <button type="submit" className="form-contact-button">Enviar</button>
             </form>
 

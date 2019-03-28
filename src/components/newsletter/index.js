@@ -15,7 +15,7 @@ export default class newsletter extends Component {
 
         if(!newEmail.length) return;
 
-        const email = this.state.newEmail;
+        const email = this.state.newEmail;    
 
         await api.post('newsletters', { email });
 
