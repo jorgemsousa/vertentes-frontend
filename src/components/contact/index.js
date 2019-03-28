@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Iframe from 'react-iframe';
 import Api from '../../services/api';
+import Alert from 'react-s-alert';
+
+import 'react-s-alert/dist/s-alert-default.css';
+import 'react-s-alert/dist/s-alert-css-effects/slide.css';
 
 
 import './styles.css';
@@ -29,8 +33,23 @@ export default class contact extends Component {
     const subject = this.state.newSubject;
 
     await Api.post('contacts', { name, email, subject })
-     
-   
+    
+    if(false){
+      Alert.error('Algo deu errado, contato não enviado!',{
+       position: 'top-right',
+       effect: 'slide',
+       timeout: 3000,
+       offset:80, 
+      });
+    }
+    
+    Alert.success('Contato enviado com sucesso!',{
+      position: 'top-right',
+      effect: 'slide',
+      timeout: 3000,
+      offset:80, 
+    });
+    
 
     this.setState({ newEmail: '', newName: '', newSubject: '' })
     

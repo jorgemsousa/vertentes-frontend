@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
+import Alert from 'react-s-alert';
+
+import 'react-s-alert/dist/s-alert-default.css';
+import 'react-s-alert/dist/s-alert-css-effects/slide.css';
+
 import './styles.css';
+
 
 export default class newsletter extends Component {
 
@@ -18,7 +24,14 @@ export default class newsletter extends Component {
         const email = this.state.newEmail;    
 
         await api.post('newsletters', { email });
-
+                
+        Alert.success('Cadastro Efetuado', {
+           position: 'top-right',
+           effect: 'slide',
+           timeout: 3000,
+           offset:80,           
+        });
+        
         this.setState({ newEmail: '' });
         
         
@@ -39,6 +52,7 @@ export default class newsletter extends Component {
                 <input type="email" placeholder="seuemail@exemplo.com" name="mail" required value={this.state.newEmail} onChange={this.handleInputChange}/>
                 <button className="button" type="submit">Cadstrar</button>
             </div>
+            <Alert stack={{limit: 3}} html={true}/>
         </form>
       </div>
     );

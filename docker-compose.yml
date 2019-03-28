@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  frontend:
+        build: .
+        command: yarn start
+        ports:
+          - "3001:3001"
+        volumes:
+          - .:/usr/frontend
