@@ -33,6 +33,7 @@
   color: white;
   padding-top: 300px;
   padding-bottom: 300px;
+  width: 100%;
 }
 
 .paralax-botton {
@@ -44,6 +45,7 @@
   color: white;
   padding-top: 280px;
   padding-bottom: 280px;
+  width: 100%;
 }
 
 h1.text-center {
