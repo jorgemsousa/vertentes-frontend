@@ -4,6 +4,7 @@
     justify-content: flex-end;
     padding-right: 5%;
     width: 100%;
+    z-index: 4;
   }
   
   /* Style the links inside the navigation bar */
