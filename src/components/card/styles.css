@@ -2,7 +2,7 @@
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 280px;
+    width: 87.5%;
     height: 360px;
   }
   
@@ -22,7 +22,7 @@
   .card img{
     padding: 0;
     margin: 0;
-    width: 280px;
+    width: 100%;
     height: 250px;
   }
 

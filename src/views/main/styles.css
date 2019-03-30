@@ -1,3 +1,8 @@
+@media screen and (min-width: 
+1024px) {
+ #main { min-width: 1000px; }
+}
+
 .container {
     background: white;
     margin: 20px;
@@ -8,8 +13,6 @@
 .row-noticia {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 100%;
   border-left: solid 4px darkgreen;
 }
 
