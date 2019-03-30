@@ -8,7 +8,7 @@ export default class institucional extends Component {
   render() {
     return (
         <div className="container-institucional">
-          <h2 className="institucional">Institucional</h2>
+          <h2>Institucional</h2>
           <div className="pages">
             <p><Link to="/whoweare">Quem Somos</Link></p>
             <p><Link to="/contact">Fale Conosco</Link></p>

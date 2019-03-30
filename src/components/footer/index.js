@@ -12,8 +12,7 @@ export default class footer extends Component {
     return (
       
      <div>
-      <div className="footer-body">
-        
+      <div className="footer-body">        
         <Newsletter />
         <Social />
         <Institucional />
