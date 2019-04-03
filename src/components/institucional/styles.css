@@ -1,35 +1,21 @@
-.container-institucional {
-    text-align: center;
-    padding: 20px 30px;
-    background-color: white;
-    margin-left: 38px;
-    border: solid 5px #f1f1f1;
-    border-radius: 5px;
-    width: 25%;
+.container-inst p{
+    color: darkgreen;
+    text-decoration: none;
   }
 
-.pages {
-    padding: 3% 8%;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    width: 90%;
-    margin: 3%;
+
+
+.container-inst p {
+  text-align: center;
 }
 
-.pages p {
-  padding-top: 8px;
-  padding-bottom: 2px;
-  text-align: left;
-  margin:6%;
-}
-
-.pages a {
+.container-inst a {
     text-decoration: none;
     color: darkgreen;
     font-weight: bold;
 }
 
-.pages a:hover {
+.container-inst a:hover {
     text-decoration: none;
     color: darkseagreen;
     font-weight: bold;

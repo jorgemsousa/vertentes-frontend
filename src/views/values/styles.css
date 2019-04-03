@@ -14,12 +14,12 @@
 }
 
 .paralax-values{
-  background-image: url(../../assets//images/valores.png);
+  background-image: url(../../assets//images/values.png);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   color: white;
-  padding-top: 160px;
-  padding-bottom: 80px;
+  padding-top: 90px;
+  padding-bottom: 180px;
 }

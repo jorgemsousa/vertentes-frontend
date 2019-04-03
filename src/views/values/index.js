@@ -13,8 +13,10 @@ export default class values extends Component {
           <Navbar />
           <section className="paralax-values">
           </section>
-          <div className="container-values">
+          <div className="container-fluid">
+            <div className="container-values">
              <h1>Valores</h1>
+             <div className="values">
                 <p>
                 <strong>Pessoas</strong> - Pessoas são a base do desempenho da nossa organização.
                 Acreditamos no seu potencial de crescimento, quando estabelecido através da construção
@@ -41,6 +43,8 @@ export default class values extends Component {
                 e fornecedores sao parte integrante no processo de desenvolvimento e melhoria de nossos
                 resultados.
                 </p>    
+              </div>
+              </div>  
           </div>
           <Footer />
        </div>

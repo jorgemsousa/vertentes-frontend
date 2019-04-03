@@ -16,12 +16,13 @@ export default class accordion extends Component {
     return (
      <div className="conteudo">
       <h1>Associados</h1><br/>    
+       
       <Accordion>
       <AccordionItem>
-          <AccordionItemTitle>
+          <AccordionItemTitle aria-expanded="true">
            <h3><img src={User} alt="perfil" /> Jean Marcel</h3>
           </AccordionItemTitle>
-          <AccordionItemBody>
+          <AccordionItemBody >
               <p><b>IDENTIFICAÇÃO</b><br/><br/>
                    <p>Jean Marcel Sousa Lira, CPF: 014381265-30, engenheiro florestal pela 
                    Universidade Federal de Sergipe (UFS) em 2009, com mestrado em e doutorado 
@@ -90,7 +91,7 @@ export default class accordion extends Component {
       </AccordionItem>
       <AccordionItem>
           <AccordionItemTitle>
-              <h3><img src={User} alt="perfil" />Gustavo Jaconi</h3>              
+              <h3><img src={User} alt="perfil" /> Gustavo Jaconi</h3>              
           </AccordionItemTitle>
           <AccordionItemBody>
               <p><b>IDENTIFICAÇÃO</b><br/><br/>

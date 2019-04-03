@@ -11,18 +11,27 @@ import './styles.css';
 
 export default class main extends Component {
 
+     
+
   render() {
     return (
     <div>
-     <Navbar /> 
+     <Navbar />        
+
      <section className="paralax-top">
        <h1 className="text-center">CAMPOS DAS VERTENTES</h1>
        <p className="paralax">Busca de novas tecnologias para o desenvolvimento de uma agricultura voltada para a sustentabilidade.</p>
-       <Link className="btn btn-danger" to="/whoweare">Saiba Mais</Link>
+       <div className="row btn-parallax justify-content-center">
+         <Link className="btn btn-danger" to="/whoweare">Saiba Mais</Link>
+        </div> 
      </section>
-      <div className="container">
-        Notícias
-        <div className="row-noticia">
+      <div className="container-fluid main">
+        
+      <div className="row row-body">
+
+        <strong>Notícias</strong>
+        
+        <div className="row row-noticia">
          <a href="https://istoe.com.br/jbs-biodiesel-vende-260-milhoes-de-litros-em-2018/" target="blank">
           <Card
              title="JBS Biodiesel vende 260 milhões de litros em 2018 - Fonte: IstoÉ"
@@ -50,18 +59,21 @@ export default class main extends Component {
             link="#noticia"
           />
           </a>
-        </div><br/>
-        Clima
-        <div className="row-clima">
+        </div>
+        <strong>Clima</strong>
+        <div className="row row-clima">
           <CardClima />
           <TableClima />
+        </div>     
         </div>
-        
       </div>
+
       <section className="paralax-botton">
        <h1 className="text-center">Nossos Valores</h1>
        <p className="paralax">Segurança, Ética, Sustentabilidade, esses são alguns dos nossos valores.</p>
-       <Link className="btn btn-danger" to="/values">Saiba Mais</Link>
+       <div className="row btn-parallax justify-content-center">
+         <Link className="btn btn-danger" to="/values">Saiba Mais</Link>
+        </div> 
      </section>
      <Footer />
     </div>

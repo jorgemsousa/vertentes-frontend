@@ -7,8 +7,7 @@
 
   .container-partnes h1{
     padding: 20px ;
-    color: darkgrey;
-    
+    color: darkgrey;    
   }
 
   .partnes {
@@ -18,6 +17,11 @@
   }
 
  .partnes a{
+    text-decoration: none;
+    color: #555;  
+  }
+
+  .partnes a:hover{
     text-decoration: none;
     color: darkgray;  
   }
@@ -29,6 +33,7 @@
   background-size: auto;
   background-attachment: fixed;
   color: white;
-  padding-top: 170px;
-  padding-bottom: 120px;
+  margin-top: 78px;
+  padding-top: 70px;
+  padding-bottom: 90px;
 }

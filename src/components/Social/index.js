@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 import { SocialIcon } from 'react-social-icons';
 
- import './styles.css';
-
 export default class cardSocial extends Component {
   render() {
     return (
-        <div className="container-social">
-          <h2>Redes Sociais</h2>
-          <div className="icon">
-            <SocialIcon url="http://whatsapp.com/in/jaketrent" />&nbsp;&nbsp;&nbsp;&nbsp;
-            <SocialIcon url="http://youtube.com/in/jaketrent" />&nbsp;&nbsp;&nbsp;&nbsp;
-            <SocialIcon url="http://twitter.com/in/jaketrent" />&nbsp;&nbsp;&nbsp;&nbsp;
-            <SocialIcon url="http://facebook.com/in/jaketrent" />&nbsp;&nbsp;&nbsp;&nbsp;
-          </div>
-          
-        </div>
+        
+          <div className="card bg-light w-50 text-center m-2">
+            <div className="card-header text-center"><strong>Redes Sociais</strong></div>
+            <div className="card-body">
+             <div className="row pt-3">
+               <div className="container d-flex justify-content-around flex-wrap pr-3">
+                <SocialIcon url="http://whatsapp.com/in/jaketrent" />
+                <SocialIcon url="http://youtube.com/in/jaketrent" />
+                <SocialIcon url="http://twitter.com/in/jaketrent" />
+                <SocialIcon url="http://facebook.com/in/jaketrent" />
+               </div>
+             </div> 
+            </div>
+          </div>  
+
+   
     );
   }
 }

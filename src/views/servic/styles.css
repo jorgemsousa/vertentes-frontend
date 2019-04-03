@@ -1,16 +1,9 @@
+
 .container-services h1{
   padding: 20px ;
   color: darkgrey;
+}
   
-}
-
-.row {
-    background: white;
-    display: flex;
-    flex-direction: row;
-}
-
-
 .paralax-services{
   background-image: url(../../assets//images/servicos.jpg);
   background-position: center top;
@@ -19,5 +12,8 @@
   background-attachment: fixed;
   color: white;
   padding-top: 160px;
-  padding-bottom: 140px;
+  padding-bottom: 180px;
+  margin-top: 78px;
 }
+
+

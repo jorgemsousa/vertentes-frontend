@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import apiClima from '../../services/apiClima';
-import './styles.css';
+//import './styles.css';
 
 export default class tableClima extends Component {
     state = {
@@ -78,55 +78,56 @@ export default class tableClima extends Component {
 
   render() {
     return (
-        <div className="tableClima">
-           <table>
-             <thead>
-               <tr className="titulo">
-                 <th colSpan="5">Previsão das Principais Cidades</th>
-               </tr>           
-              
-               <tr className="cabecalho">
-                   <th>Cidade</th>
-                   <th>Estado</th>
-                   <th>Data</th>
-                   <th>Temperatura</th>
-               </tr>
-            </thead>  
-            <tbody>   
-               <tr className="body">
-                   <td>{this.state.namesp}</td>
-                   <td>{this.state.statesp}</td>
-                   <td>{this.state.datasp.date}</td>
-                   <td>{this.state.datasp.temperature}º</td>
-                   
-               </tr>
-               <tr className="body">
-                   <td>{this.state.namerj}</td>
-                   <td>{this.state.staterj}</td>
-                   <td>{this.state.datarj.date}</td>
-                   <td>{this.state.datarj.temperature}º</td>
-               </tr>
-               <tr className="body">
-                   <td>{this.state.namebh}</td>
-                   <td>{this.state.statebh}</td>
-                   <td>{this.state.databh.date}</td>
-                   <td>{this.state.databh.temperature}º</td>
-               </tr>
-               <tr className="body">
-                   <td>{this.state.nameba}</td>
-                   <td>{this.state.stateba}</td>
-                   <td>{this.state.databa.date}</td>
-                   <td>{this.state.databa.temperature}º</td>
-               </tr>
-               <tr className="body">
-                   <td>{this.state.nameam}</td>
-                   <td>{this.state.stateam}</td>
-                   <td>{this.state.dataam.date}</td>
-                   <td>{this.state.dataam.temperature}º</td>
-               </tr>
-            </tbody>   
-           </table>
-        </div>
+
+      <div className="card text-white bg-info m-3">
+              <div className="card-header text-center"><h3>Previsão das Principais Cidades</h3></div>
+              <div className="card-body">
+              <table className="table table-striped table-sm text-white text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">Cidade</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Temperatura</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td>{this.state.namesp}</td>
+                      <td>{this.state.statesp}</td>
+                      <td>{this.state.datasp.date}</td>
+                      <td>{this.state.datasp.temperature}º</td>
+                  </tr>
+                  <tr>
+                      <td>{this.state.namerj}</td>
+                      <td>{this.state.staterj}</td>
+                      <td>{this.state.datarj.date}</td>
+                      <td>{this.state.datarj.temperature}º</td>
+                  </tr>
+                  <tr>
+                      <td>{this.state.namebh}</td>
+                      <td>{this.state.statebh}</td>
+                      <td>{this.state.databh.date}</td>
+                      <td>{this.state.databh.temperature}º</td>
+                  </tr>
+                  <tr>
+                      <td>{this.state.nameba}</td>
+                      <td>{this.state.stateba}</td>
+                      <td>{this.state.databa.date}</td>
+                      <td>{this.state.databa.temperature}º</td>
+                  </tr>
+                  <tr>
+                      <td>{this.state.nameam}</td>
+                      <td>{this.state.stateam}</td>
+                      <td>{this.state.dataam.date}</td>
+                      <td>{this.state.dataam.temperature}º</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              </div>
+            </div>        
+
     );  
   }
 }

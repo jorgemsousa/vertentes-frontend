@@ -15,10 +15,10 @@ export default class servic extends Component {
         <Navbar />
        <section className="paralax-partnes">
        </section>
-        <div className="container">
+        <div className="container-fluid">
           <div className="container-partnes">
           <h1>Parceiros</h1>
-          <div className="partnes">
+          <div className="d-flex flex-wrap pb-3">
           <a href="http://www.inbatec.ufla.br/" target="blank">
             <Card 
               title="Inbatec - INCUBADORA DE EMPRESAS DE BASE TECNOLÓGICA - Universidade Federal de Lavras."

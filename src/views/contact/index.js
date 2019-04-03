@@ -13,8 +13,10 @@ export default class main extends Component {
       <Navbar />
      <section className="paralax-contact">
      </section>
-      <div className="container">
-      <Contact />     
+     <div className="container-fluid">
+      <div className="d-flex flex-wrap">
+        <Contact />     
+      </div>
       </div>
       <Footer />
     </div>

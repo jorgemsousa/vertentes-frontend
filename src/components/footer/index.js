@@ -11,7 +11,7 @@ export default class footer extends Component {
     
     return (
       
-     <div>
+     <div className="d-flex flex-wrap">
       <div className="footer-body">        
         <Newsletter />
         <Social />

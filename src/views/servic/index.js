@@ -19,12 +19,13 @@ export default class servic extends Component {
         <Navbar />
        <section className="paralax-services">          
        </section> 
-      <div className="container"> 
-      
-      <div className="container-services">
-      <h1>Serviços</h1>
-      <div className="row"> 
 
+      <div className="container-fluid">       
+         
+        <div className="row">
+           <div className="container-services"> 
+            <h1>Valores</h1>
+            <div className="d-flex flex-wrap pb-3">
              <Card
                title="Desenvolvimento de novas moléculas com atividade microbiológica visando a redução de defensivos."
                image={ImgMSolo}
@@ -40,10 +41,8 @@ export default class servic extends Component {
               <Card 
                 title="Manejo das principais culturas de interesse do agronegócio brasileiro visando o alcance de maiores produtividades. "
                 image={ImgCultura}
-              /> 
-        </div>
-        <div className="row">
-
+              />    
+                  
               <Card 
                 title="Culturas: café, soja e cereais de inverno, com ênfase em aveia forrageira e cevada."
                 image={ImgCevada}
@@ -52,10 +51,11 @@ export default class servic extends Component {
                 title="Manejo orgânico de espécies medicinais recomendadas pela ANVISA voltada para produção de matéria prima “in natura”."
                 image={ImgMedicinais}
               />             
-          
+          </div>
+          </div>
        </div>
        </div>
-       </div>       
+             
         <Footer />
      </div>
     );

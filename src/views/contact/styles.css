@@ -1,18 +1,12 @@
 
-  .container {
-      background: white;
-      margin: 20px 30px;
-      display:flex;
-    
-  }
 
   .paralax-contact{
     background-image: url(../../assets//images/contactlocate.png);
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
     color: white;
-    padding-top: 160px;
-    padding-bottom: 90px;
+    padding-top: 380px;
+    padding-bottom: 10px;
   }

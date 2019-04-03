@@ -1,12 +1,11 @@
-.container-contact {
-    display: flex;
-  }
+.container-contact{
+  display: flex;
+}
 
   .form-contact {
-    width: 77%;
+    width: 100%;
     font-family: "Arial", Times, serif;
     margin: 20px;
-    background: #f1f1f1;
   }
 
   .form-contact-input {
@@ -84,7 +83,7 @@
 
   .locate {
     width: 100%;
-    margin: 20px 10px;
+    margin: 5px 10px;
   }
 
   .locate h1{

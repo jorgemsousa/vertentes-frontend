@@ -73,7 +73,7 @@ export default class contact extends Component {
 
             <form className="form-contact" onSubmit={this.handleNewContact}>
             <h1>Contato</h1>
-            <p>Mande uma mensagem com suas dúvidas e logo daremos a solução!</p>
+            <p>Mande sua mensagem com sugestão ou dúvidas que logo o responderemos!</p>
                 <label>Nome:</label>
                 <input 
                     type="text" 
@@ -104,7 +104,7 @@ export default class contact extends Component {
                     required  
                 >
                 </textarea>
-                <button type="submit" className="form-contact-button">Enviar</button>
+                <button type="submit" className="btn btn-warning col-12">Enviar</button>
             </form>
 
             <div className="locate">

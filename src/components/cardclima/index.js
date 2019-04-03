@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import apiClima from '../../services/apiClima';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWind } from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faWind } from '@fortawesome/free-solid-svg-icons'
 
-import './styles.css';
+//import './styles.css';
 
 export default class cardclima extends Component {
     state = {
@@ -29,28 +29,22 @@ export default class cardclima extends Component {
 
     return (
         <div className="card-clima">
-            <div className="container">
-               <div className="card-header">
-                  <h1>{this.state.name} - {this.state.states}</h1>
-               </div>
-               <div className="card-body">
-                 <span className="condition">Tempo: {this.state.data.condition}</span>
-                 <span className="date">Data: {this.state.data.date}</span>
-               </div>
-               <div className="image">
-                <span>humidade: {this.state.data.humidity}%</span>
-                <span>Pressão: {this.state.data.pressure}</span>
-               </div>
-               <div className="temp">
-                  <span className="temperature">{this.state.data.temperature}ºC</span>
-                  <span className="sensation">{this.state.data.sensation}ºC </span>
-               </div>
-               <div className="vento">
-                <FontAwesomeIcon icon={faWind} size="4x"/>
-                <span> Vento: {this.state.data.wind_direction}</span>
-                <span>  {this.state.data.wind_velocity}km/h</span>                
-               </div>
-            </div>
+
+            <div className="card text-white bg-warning m-3">
+              <div className="card-header"><h3>{this.state.name} - {this.state.states}</h3></div>
+              <div className="card-body">
+                <h5 className="card-title">Tempo: {this.state.data.condition}</h5>
+                <p className="card-text">Data: {this.state.data.date}</p>
+                <p className="card-text">humidade: {this.state.data.humidity}%</p>
+                <p className="card-text">Pressão do ar: {this.state.data.pressure} Pa</p>
+                <p className="card-text">Temperatura: {this.state.data.temperature}ºC</p>
+                <p className="card-text">Sensação: {this.state.data.sensation}ºC</p>
+                <p className="card-text">Vento: {this.state.data.wind_direction}</p>
+                <p className="card-text">Velocidade: {this.state.data.wind_velocity}km/h</p>
+
+              </div>
+            </div>         
+          
         </div>
     );
   }
