@@ -24,7 +24,7 @@ export default class servic extends Component {
          
         <div className="row">
            <div className="container-services"> 
-            <h1>Valores</h1>
+            <h1>Serviços</h1>
             <div className="d-flex flex-wrap pb-3">
              <Card
                title="Desenvolvimento de novas moléculas com atividade microbiológica visando a redução de defensivos."

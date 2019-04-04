@@ -12,7 +12,7 @@ export default class associate extends Component {
         <Navbar />
         <section className="paralax-associados">
         </section>
-          <div className="container-fluid">
+          <div className="container-fluid mt-3 mb-3">
               <Accordion />
           </div>
         <Footer />
