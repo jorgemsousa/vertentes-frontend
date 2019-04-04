@@ -9,11 +9,11 @@ export default class cardSocial extends Component {
             <div className="card-header text-center"><strong>Redes Sociais</strong></div>
             <div className="card-body">
              <div className="row pt-3">
-               <div className="container d-flex justify-content-around flex-wrap pr-3 pt-3">
-                <SocialIcon url="http://whatsapp.com/in/jaketrent" />
-                <SocialIcon url="http://youtube.com/in/jaketrent" />
-                <SocialIcon url="http://twitter.com/in/jaketrent" />
-                <SocialIcon url="http://facebook.com/in/jaketrent" />
+               <div className="container d-flex justify-content-around flex-wrap pr-3 pt-3 mb-3">
+                <SocialIcon url="http://whatsapp.com/in/jaketrent" className="m-1" />
+                <SocialIcon url="http://youtube.com/in/jaketrent" className="m-1"/>
+                <SocialIcon url="http://twitter.com/in/jaketrent" className="m-1"/>
+                <SocialIcon url="http://facebook.com/in/jaketrent" className="m-1"/>
                </div>
              </div> 
             </div>
