@@ -14,7 +14,7 @@ export default class main extends Component {
      <section className="paralax-contact">
      </section>
      <div className="container-fluid">
-      <div className="container d-flex flex-wrap">
+      <div className="d-flex flex-wrap">
         <Contact />     
       </div>
       </div>
