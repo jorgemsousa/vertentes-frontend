@@ -115,7 +115,7 @@ export default class contact extends Component {
                 Aracaju-SE
               </p>
                 <Iframe url="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d323743.9643012332!2d-37.185610541706616!3d-11.004003243053477!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1551477988118"
-                        width="48%"
+                        width="44%"
                         height="75%"
                         frameborder="0"
                         allowfullscreen/>
