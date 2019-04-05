@@ -79,7 +79,7 @@ export default class tableClima extends Component {
   render() {
     return (
 
-      <div className="card text-white bg-info m-3">
+      <div className="card text-white bg-info m-1">
               <div className="card-header text-center"><h3>Previsão das Principais Cidades</h3></div>
               <div className="card-body">
               <table className="table table-striped table-sm text-white text-center">

@@ -9,7 +9,7 @@ export default class institucional extends Component {
     return (
         
 
-         <div className="card bg-light w-50 text-center m-2">
+         <div className="card bg-light w-100 text-center m-2">
             <div className="card-header text-center"><strong>Institucional</strong></div>
             <div className="card-body">
              <div className="row pt-3">

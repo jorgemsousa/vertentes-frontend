@@ -20,4 +20,10 @@
     color: darkgreen;
     text-align: center;
     padding: 20px 0;
+    
+  }
+
+  .row-footer {
+    display: flex;
+    flex-direction: row;
   }

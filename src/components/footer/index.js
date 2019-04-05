@@ -11,14 +11,14 @@ export default class footer extends Component {
     
     return (
       
-     <div className="d-flex flex-wrap">
-      <div className="footer-body">        
+     <div className="row">
+      <div className="footer-body d-flex flex-wrap">        
         <Newsletter />
         <Social />
         <Institucional />
       </div>   
       <div className="footerbotton">
-      Copyrights &copy; 2019 Todos os direitos reservados   
+      &copy; 2019 Todos os direitos reservados - Campos das Vertentes   
       </div>
     </div>  
     );

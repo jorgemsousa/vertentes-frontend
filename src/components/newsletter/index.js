@@ -53,7 +53,7 @@ export default class newsletter extends Component {
   render() {
     return (
      
-      <div className="card bg-light w-50 text-center m-2">
+      <div className="card bg-light w-100 text-center m-2">
         <div className="card-header text-center"><strong>Cadastre-se em nossa newsletter</strong></div>
         <div className="card-body col-12">
          <div className="row pt-4">
