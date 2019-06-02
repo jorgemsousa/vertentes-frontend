@@ -1,6 +1,6 @@
 .main {
-    background: white;
-    padding: 20px;
+  background: white;
+  padding: 20px;
 }
 
 .row-body {
@@ -15,7 +15,6 @@
   margin: 1px;
   padding: 0;
 }
-
 
 .row-clima {
   display: flex;

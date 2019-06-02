@@ -14,7 +14,7 @@ export default class navbar extends Component {
 
       
          <nav className="navbar fixed-top navbar-expand-md navbar-light bg-light">
-           <a className="navbar-brand" href="/"> <img src={imgLogo} alt="Logomarca" /></a>
+           <Link className="navbar-brand" to="/"> <img src={imgLogo} alt="Logomarca" /></Link>
    
            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainMenu" 
              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
