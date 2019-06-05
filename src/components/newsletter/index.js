@@ -17,20 +17,17 @@ export default class newsletter extends Component {
 
     const { newEmail } = this.state;
 
-    if (!newEmail.length) return;
-
-    const email = this.state.newEmail;
-
-    await api.post("newsletters", { email });
-
-    if (false) {
-      Alert.error("Algo deu errado, contato não enviado!", {
+    if (!newEmail.length)
+      return Alert.error("Cadastro não Efetuado", {
         position: "top-right",
         effect: "slide",
         timeout: 3000,
         offset: 80
       });
-    }
+
+    const email = this.state.newEmail;
+
+    await api.post("newsletters", { email });
 
     Alert.success("Cadastro Efetuado", {
       position: "top-right",

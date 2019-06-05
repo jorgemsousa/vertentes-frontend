@@ -72,12 +72,11 @@ export default class main extends Component {
                 />
               </a>
             </div>
+            <br />
             <strong>Clima</strong>
-            <div className="row row-clima">
-              <div className="card-deck">
-                <CardClima />
-                <TableClima />
-              </div>
+            <div className="card-deck">
+              <CardClima />
+              <TableClima />
             </div>
           </div>
         </div>
