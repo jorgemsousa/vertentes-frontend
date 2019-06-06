@@ -11,18 +11,17 @@
 .row-noticia {
   display: flex;
   flex-direction: row;
-  border-left: solid 4px darkgreen;
   margin: 1px;
   padding: 0;
 }
-
+/*
 .card-deck {
   display: flex;
   flex-direction: row;
   border-left: solid 4px darkorange;
   margin: 1px;
 }
-
+*/
 .paralax-top {
   background-image: url(../../assets//images/campo3.jpg);
   background-repeat: no-repeat;

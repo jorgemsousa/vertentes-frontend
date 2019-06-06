@@ -12,7 +12,7 @@ import "./styles.css";
 export default class main extends Component {
   render() {
     return (
-      <div>
+      <div className="fluid">
         <Navbar />
 
         <section className="paralax-top">
@@ -31,7 +31,7 @@ export default class main extends Component {
           <div className="row row-body">
             <strong>Notícias</strong>
 
-            <div className="row row-noticia">
+            <div className="card-deck">
               <a
                 href="https://istoe.com.br/jbs-biodiesel-vende-260-milhoes-de-litros-em-2018/"
                 target="blank"
